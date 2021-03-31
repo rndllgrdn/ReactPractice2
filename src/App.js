@@ -3,6 +3,13 @@ import './App.css';
 import Navigation from './components/Navigation';
 import LoginForm from './components/LoginForm';
 import Form from './components/Form';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 function App() {
   // const [showDialog, setShowDialog] = useState(false);
